@@ -34,7 +34,7 @@
   "dependencies": {
     "ajv": "^5.5.2",
     "autoprefixer": "^9.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^7.2.3",
@@ -60,6 +60,7 @@
     "postcss-loader": "^2.1.6",
     "react": "16.8.0",
     "react-dom": "16.8.0",
+    "react-dropzone-component": "^3.2.0",
     "react-redux": "5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.3.1",
