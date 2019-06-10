@@ -2,16 +2,14 @@
   @include base-grid();
   grid-template-columns: 1fr;
   padding: 42px;
-
   @include input-element();
   input {
     margin-bottom: 0px;
   }
 
-  .image_uploaders {
+  .image-uploaders {
     @include base-grid();
     grid-template-columns: 200px 200px 200px;
-
     .portfolio-manager-image-wrapper {
       img {
         width: 100%;
@@ -25,8 +23,12 @@
         justify-content: center;
         a {
           font-weight: 900;
-          color: rgba(255, 0, 0, 0.87);
+          color: $soft-dark;
           cursor: pointer;
+          transition: 0.5s ease-in-out;
+          &:hover {
+            color: rgba(255, 0, 0, 0.87);
+          }
         }
       }
     }
